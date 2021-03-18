@@ -1,0 +1,119 @@
+body {
+	margin: 0 auto;
+	width: auto;
+	overflow-x: hidden;
+	z-index: 1;
+}
+
+.content {
+	background-image:  url("holo_en.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+	width: 100%;
+	z-index: -2;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+.videos {
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 20px;
+}
+footer {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+}
+.gen1 {
+    position: relative;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+.gen1 span.border{
+    font-family: Comic Sans MS, sans-serif;
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+.block1 {
+    color: #777;
+    background-color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    text-align: justify;
+    font-family: Comic Sans MS, sans-serif;
+}
+.content2 {
+    background: url("https://walfiegif.files.wordpress.com/2020/11/out-transparent-3.gif?w=371&h=306");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+}
+.content3 {
+    background: url("https://i.kym-cdn.com/photos/images/original/001/920/308/85b.gif");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+}
+.content4 {
+    background: url("https://walfiegif.files.wordpress.com/2020/11/out-transparent-6.gif");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+}
+.content5 {
+    background: url("https://i.redd.it/6l4kke462zt51.gif");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+}
+.content6 {
+    background: url("https://static.wikia.nocookie.net/fox_coalition/images/e/e5/Apal.gif/revision/latest?cb=20201002084233");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+}
+.content7 {
+    background: url("kingtenshi.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+}
+@media screen and (max-width: 600px) {
+	.video {
+		max-width: 300px;
+	}
+  }

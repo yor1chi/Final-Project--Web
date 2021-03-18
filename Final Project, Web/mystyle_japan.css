@@ -1,0 +1,110 @@
+body {
+	margin: 0 auto;
+	width: auto;
+	overflow-x: hidden;
+}
+.videos {
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 20px;
+}
+footer {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+  }
+  .sticky {
+	position: fixed;
+	top: 0;
+	width: 100%
+  }
+  .gen1 {
+    position: relative;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+.gen1 span.border{
+    font-family: Comic Sans MS, sans-serif;
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+.block1 {
+    color: #777;
+    background-color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    text-align: justify;
+    font-family: Comic Sans MS, sans-serif;
+}
+.content2 {
+    background: url("https://i.pinimg.com/originals/21/03/d9/2103d99c15d476a2088e64807a114ff6.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+}
+.content3 {
+    background: url("https://walfiegif.files.wordpress.com/2020/12/out-transparent-22.gif");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+}
+.content4 {
+    background: url("https://cdn.abcotvs.com/dip/images/6347104_080120-cc-shutterstock-red-onions-img.jpg?w=1600");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+}
+.content5 {
+    background: url("https://i.imgur.com/NOG6h8f.gif?noredirect");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+}
+.content6 {
+    background: url("https://i.pinimg.com/originals/2f/ed/af/2fedaf02a91d39ef210d297ae250f7fe.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+}
+.content7 {
+    background: url("https://preview.redd.it/1cuy53kp69g51.png?auto=webp&s=24c42b24690ce0625b40e7cdbff184e2db2be4a3");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+}
+@media screen and (max-width: 600px) {
+	.video {
+		max-width: 300px;
+	}
+	.gen1 span.border {
+		letter-spacing: normal;
+	  }
+  }

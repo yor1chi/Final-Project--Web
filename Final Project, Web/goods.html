@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Official Goods</title>
+        <style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+    margin: 0 -5px;
+    margin-bottom: 70px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 650px) {
+  .column {
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .column {
+    width: 33%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .column {
+    width: 25%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+}
+        </style>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+         <script>
+           $(window).on("load",function(){
+           $(".page-loader").fadeOut("slow")
+       });
+       </script>
+       <script>
+           $(document).ready(function() {
+           setTimeout(function(){
+           $('body').addClass('loaded');
+           $('h1').css('color','#777');
+           }, 1500);});
+       </script>
+       <link rel="stylesheet" href="loader.css">
+    </head>
+    <body>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="https://cs11.pikabu.ru/post_img/big/2020/10/29/2/1603935246125373482.png" alt="Amelia Watson" style="width:100%; height: 400px;">
+                    <h1>Watson Amelia Birthday 2021</h1>
+                    <p class="price">¥2,000</p>
+                    <p>Complete pack of commemorative voices and goods as toys and figures.</p>
+                    <a href="https://shop.geekjack.net/products/amelia-watson-birthday-2021-commemorative-voice-goods-complete-packのコピー-1?_pos=2&_sid=5bc3f79b9&_ss=r"><button>Buy</button></a>
+                  </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d1f482d3-a303-4e1b-816c-37cff0f0ed52/decjpg9-5588a9fd-c44c-4b76-a67b-0dc4f393ace7.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZDFmNDgyZDMtYTMwMy00ZTFiLTgxNmMtMzdjZmYwZjBlZDUyXC9kZWNqcGc5LTU1ODhhOWZkLWM0NGMtNGI3Ni1hNjdiLTBkYzRmMzkzYWNlNy5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.fu1IC_CvPJDpbU0hh31narE6NGst7ZyFfD-AJTaV1ZY" alt="holoen" style="width: 100%; height: 400px;">
+                    <h1>Holo-Myth's Half-year Anniversary</h1>
+                    <p class="price">¥13,000</p>
+                    <p>Complete pack of commemorative voices and goods as toys and figures.</p>
+                    <a href="https://shop.geekjack.net/collections/hololive-en/products/hololive-english-myth-half-year-anniversary-commemorative-goods-complete-pack"><button>Buy</button></a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <img src="https://cs12.pikabu.ru/post_img/big/2020/12/18/2/160825143816695121.jpg" alt="pekora" style="width: 100%; height: 400px;">
+                    <h1>Usada Pekora's anniversary pack</h1>
+                    <p class="price">¥9,000</p>
+                    <p>"1st anniversary of debut : Usada Pekora's voice set" by Usada Pekora</p>
+                    <a href="https://shop.geekjack.net/collections/usada-pekora/products/first-anniversary-of-debut-usada-pekoras-voice-completed-set-with-special-voice-only-by-usada-pekora"><button>Buy</button></a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <img src="https://preview.redd.it/n94o9lpbdz061.png?auto=webp&s=5c71f50a68542dbdc3bcca4c528ea4c81612b3bd" alt="miko" style="width: 100%; height: 400px;">
+                    <h1>Sakura Miko birthday 2021</h1>
+                    <p class="price">¥14,000</p>
+                    <p>Made to order/duplicate autographs complete set by Sakura Miko</p>
+                    <a href="https://shop.geekjack.net/collections/sakura-miko/products/20210306-20210412-limited-quantity-handwritten-autograph-sakura-miko-birthday-2021-commemorative-voice-goods-complete-packのコピー"><button>Buy</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="https://devilchan.com/sample/fb/8f/rushia-uruha-hololive-ribbed-fabric-1871-723x1023.jpeg" alt="rushia" style="width: 100%; height: 400px;">
+                    <h1>Uruha Rushia Birthday 2021</h1>
+                    <p class="price">¥500</p>
+                    <p>"Uruha Rushia Birthday 2021" Situation Voice [Thank you I love you]</p>
+                    <a href="https://shop.geekjack.net/collections/uruha-rushia/products/20210123-uruha-rushia-birthday-2021-situation-voice-thank-you-i-love-you"><button>Buy</button></a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <img src="https://i1.sndcdn.com/artworks-Z4adlVXko83iy5JL-CgvtRw-t500x500.jpg" alt="kiara" style="width: 100%; height: 400px;">
+                    <h1>Takanashi Kiara Thanksgiving 2020</h1>
+                    <p class="price">¥2,000</p>
+                    <p>Takanashi Kiara Thanksgiving 2020 Special Voice</p>
+                    <a href="https://shop.geekjack.net/collections/takanashi-kiara/products/takanashi-kiara-thanksgiving-2020-special-voiceu"><button>Buy</button></a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <img src="https://i.redd.it/o6o7h11u94251.png" alt="fubuki" style="width: 100%; height: 400px;">
+                    <h1>Shirakami Fubuki 1 million fans</h1>
+                    <p class="price">¥750</p>
+                    <p>Shirakami Fubuki "The commemoration voice for 1 million fans" Complete Set</p>
+                    <a href="https://shop.geekjack.net/collections/shirakami-fubuki/products/shirakami-fubuki-the-commemoration-voice-for-1-million-fans-at-bilibili-complete-set"><button>Buy</button></a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <img src="https://danbooru.donmai.us/data/sample/sample-5d1440a8b3509b662d75d115f9043c43.jpg" alt="nene" style="width: 100%; height: 400px;">
+                    <h1>Momosuzu Nene Birthday 2021</h1>
+                    <p class="price">¥4,000</p>
+                    <p>"Momosuzu Nene Birthday 2021" Situation Voice: Gachimuchi</p>
+                    <a href="https://shop.geekjack.net/collections/momosuzu-nene/products/20210302-momosuzu-nene-birthday-2021-commemorative-voice-complete-pack"><button>Buy</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="page-loader" style="display: block;">
+          <div class="loader"></div>
+        </div>
+    </body>
+    <footer>©2021 Sadr Galamat, Astana IT University Copyright</footer>
+</html>

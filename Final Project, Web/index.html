@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hololive production</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="mystyle_index.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="loader.css">
+	<link rel="stylesheet" href="header.css">
+	<script src="header.js"></script>
+    <script>
+      $(window).on("load",function(){
+      $(".page-loader").fadeOut("slow")
+  });
+  </script>
+  <script>
+      $(document).ready(function() {
+      setTimeout(function(){
+      $('body').addClass('loaded');
+      $('h1').css('color','#777');
+      }, 1500);});
+  </script>
+</head>
+<body>
+	<nav class="top_nav" id="myHeader">
+		<logo> <a href="index.html"><img src="logo.png" alt="" height="45px"></a> </logo>
+  
+		<button id="hamburger"><i class="fas fa-bars"></i></button>
+  
+		<ul id="nav_links">
+		  <li><a href="holojp.html">Hololive JP</a></li>
+		  <li><a href="holoen.html">Hololive EN</a></li>
+		  <li><a href="holoid.html">Hololive ID</a></li>
+		  <li><a href="contacts.html">Contacts</a></li>
+		  <li><a href="goods.html">Official Goods</a></li>
+		  <li><a href="feedback.html" target="_blank">Feedback</a></li>
+		</ul>
+	  </nav>
+	<div class="block1">
+		<h1>What is Hololive? A rabbit hole you would want to be in!</h1>
+		<p>Hololive is a VTuber agency with millions of fans all over the world</p>
+	</div>
+	<div class="block2">
+		<img src="holo_jp2.png">
+		<span class="block2-content">
+			<h1>Hololive Japan!</h1>
+			<p>Hololive Japan is the first and most numerous branch of corporation!</p>
+			<br>
+			<input type="button" onclick="location.href='holojp.html';" value="See more" class="block2-content-button">
+		</span>
+	</div>
+	<div class="block3">
+		<span class="block3-content">
+			<h1>Hololive English!</h1>
+			<p>Hololive EN is the most popular and fast growing part of organisation!</p>
+			<input type="button" onclick="location.href='holoen.html';" value="See more" class="block3-content-button">
+		</span>
+		<img src="holo_en.png">
+	</div>
+	<div class="block4">
+		<img src="holo_id1.jpg">
+		<span class="block4-content">
+			<h1>Hololive Indonesia!</h1>
+			<p>Hololive ID is the most wholesome and multilingual part of corporation!</p>
+			<br>
+			<input type="button" onclick="location.href='holoid.html';" value="See more" class="block4-content-button">
+		</span>
+	</div>
+	<div class="block5">
+		<h1>Associated groups</h1>
+		<p>While female VTubers are collected in "Hololive" label, other male VTubers and singers are collected <br> on the "Holostars" and "INoNaKa Music" labels respectively.</p>
+		<div class="block5-imgs">
+			<img src="logo.png" width="300px">
+			<img src="holostars.png" width="300px">
+			<img src="inonaka.png" width="300px">
+		</div>
+	</div>
+	<div class="block6">
+		<h1>Activities</h1>
+		<p>In addition to live streams on each of our talents' channels, we also provide a weekly-updated short animation, <br> original songs, song covers, and more.</p>
+		<div class="block6-videos">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/6NSdYeW4cRc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<p style="color: #72ecfb">lmao</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/68KV7JnrvDo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		<p style="position: relative; left: -280px;">Weekly updated hololive anime series</p>
+		<p style="position: relative; left: 310px; top: -38px;">Hololive's first original song: "Shiny Smily Story"</p>
+		<div class="block6-videos">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/mZ0sJQC8qkE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<p style="color: #72ecfb">lmao</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/DlZYG2NVaqo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		<p style="position: relative; left: -280px;">Introduction of all Holo members</p>
+		<p style="position: relative; left: 310px; top: -38px;">Hololive's original story: "Hololive Alternative"</p>
+	</div>
+	<div class="block7">
+		<a href="goods.html" target="_blank">
+			<img src="goods.jpg">
+			<div class="block7-content">
+				<h1 style="position: relative; left: 200px;">Official goods</h1>
+				<p>Here's where the VTuber Groups "Hololive", "Holostars",<br> "INoNaKa Music" Official Goods are available.</p>
+			</div>
+		</a>
+	</div>
+	<div class="block8">
+		<h1>Official Accounts</h1>
+		<p>Our official Twitter account will be used to let you know about special programs, events, merch, and more.
+		<br>Our official YouTube channel is regularly updated with short animations and live streams.</p>
+		<div class="block8-imgs">
+			<a href="https://twitter.com/hololive_en" target="_blank">
+				<img src="twitter.png" height="200px">
+			</a>
+			<a href="https://www.youtube.com/channel/UCJFZiqLMntJufDCHc6bQixg" style="padding-left: 40px;" target="_blank">
+				<img src="youtube.png" height="200px">
+			</a>
+			<a href="https://www.reddit.com/r/Hololive/" style="padding-left: 40px;" target="_blank">
+				<img src="reddit.png" height="200px">
+			</a>
+			<a href="https://www.facebook.com/hololivetv/" style="padding-left: 40px;" target="_blank">
+				<img src="facebook.png" height="200px">
+			</a>
+		</div>
+	</div>
+	<script>
+		$(window).scroll(function(){
+    if ($(window).scrollTop()) {
+        $('nav').addClass('sticky');
+    }
+    else {
+        $('nav').removeClass('sticky');
+    }
+});
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+<footer>©2021 Sadr Galamat, Astana IT University Copyright</footer>
+</html>
